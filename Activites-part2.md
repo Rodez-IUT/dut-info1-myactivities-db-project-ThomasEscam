@@ -52,11 +52,9 @@ Tester que la fonction est correcte avec l'énoncé suivant :
 
     SELECT * FROM create_activity_with_owner(21,'Billard','Jouer au billard à Rodez',2001, 'Joé Bill');
 
-> fix #3 Ajout fonction createActivityWithOwner
-
 > Les fonctions spécifiées dans la suite des activités doivent être créées et testées avec le "Query Tool". Certaines fonctions nécessiteront l'insertion de nouvelles données pour être testées. 
 >
->Pour chaque fonction spécifiée, vous devez créer un nouveau fichier dont le nom sera spécifié pour chaque fonction. Vous devez ensuite compléter ce fichier avec la fonction et les requêtes que vous avez rédigées pour tester dans le "Query Tool".
+>Pour chaque fonction spécifiée, vous devez créer un nouveau fichier dont le nom sera précisé pour chaque fonction. Vous devez ensuite compléter ce fichier avec la fonction et les requêtes que vous avez rédigées pour tester dans le "Query Tool".
 
 1.3 Modification de la fonction pour utilisation de la clause RETURNING
 
@@ -68,7 +66,7 @@ Tester que la fonction est correcte avec l'énoncé suivant :
 
     Modifiez la fonction "create_activity_with_owner" pour qu'elle utilise la clause RETURNING au lieu de la dernière instruction SELECT pour retourner l'activité que la fonction vient de créer.
 
-> fix #4 fonction P2-1-3 clause returning
+> fix #3 fonction P2-1-3 clause returning
 
 ### 2. Ecriture d'une fonction retournant plusieurs éléments
 
@@ -87,7 +85,7 @@ Tester que la fonction est correcte avec l'énoncé suivant :
     - *Description* :   
     la fonction retourne la liste des activités qui n'ont pas été modifiées depuis la date "old_date" passée en paramètre.
 
-> fix #4 fonction P2-1-3 clause returning
+> fix #4 fonction P2-2-1 fonction find_activities_older_than
 
 ### 3. Réflexion sur l'utilisation des fonctions SQL
 
